@@ -13,11 +13,6 @@ body {
     margin: 4%;
 }
 
-
-btn btn-primary {
-    border-radius: 50px;
-}
-
 @font-face {
   font-family: Agency;
    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/agency-fb-bold.woff);
@@ -35,8 +30,8 @@ body {
 }
 #marquee div {
 	display: inline-block; 
-	height: 12rem; 
-	width: 20rem;
+	height: 5rem; 
+	width: 30rem;
 	position: relative;
 }
 
@@ -53,7 +48,7 @@ body {
 	color: #f8c9d9;
 }
 #marquee div { 
-    font-size: 8rem;
+    font-size: 4rem;
     overflow: hidden;
 }
 #marquee div span { 
@@ -156,4 +151,21 @@ body {
 
 .box input[type="submit"]:hover {
   background-color: #1cb1f5;
+}
+
+
+.hidden {
+    display:none;
+}
+
+.btn btn-warning btn-lg round {
+    margin-right: 5px;
+}
+
+.my-buttons {
+    width: 90vw;
+}
+
+.my-button{
+    border-radius: 30px;
 }
