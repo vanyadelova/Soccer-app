@@ -6,3 +6,5 @@ function showNextGame() {
         x.style.display = "none";
     }
 } 
+
+
