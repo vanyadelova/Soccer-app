@@ -1,5 +1,5 @@
 body {
- background-image: url(sports-wallpapers-android.jpg);
+background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -77,7 +77,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background: url(sports-wallpapers-android.jpg);
+ 
   background-size: cover;
   font-family: sans-serif;
 }
